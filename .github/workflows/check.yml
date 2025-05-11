@@ -3,7 +3,8 @@ name: "Verificações de código"
 on:
   pull_request:
     branches: [ "main" ]
-
+  workflow_dispatch:
+  
 jobs:
   check:
     runs-on: ubuntu-latest
